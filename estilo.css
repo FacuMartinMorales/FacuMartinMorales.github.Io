@@ -1,0 +1,1134 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Proyectos */
+.proyecto {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+/* Header */
+header {
+    background-color: #333; /* Un gris oscuro para el header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #222; /* Fondo gris oscuro para secciones */
+}
+
+/* Proyectos */
+.proyecto {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444; /* Fondo oscuro para inputs */
+    color: #fff; /* Texto blanco en inputs */
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #555; /* Botón gris claro */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Un gris oscuro para el footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilo general del fondo */
+body {
+    background-color: #1e1e1e; /* Fondo gris oscuro */
+    color: #d4d4d4; /* Texto gris claro */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+  }
+  
+  /* Estilo de los títulos */
+  h1, h2, h3 {
+    color: #569cd6; /* Color azul claro para los títulos */
+    font-weight: 700;
+  }
+  
+  /* Estilo de los enlaces */
+  a {
+    color: #4EC9B0; /* Color verde menta como acento */
+    text-decoration: none;
+  }
+  
+  /* Efecto hover en los enlaces */
+  a:hover {
+    color: #9CDCFE; /* Azul claro al pasar el mouse */
+  }
+  
+  /* Estilo de los botones */
+  button {
+    background-color: #007acc; /* Botón azul VS Code */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005a9e; /* Botón azul más oscuro al pasar el mouse */
+  }
+  body {
+    font-family: 'Fira Code', monospace;
+  }
+  /* Separar secciones con bordes finos */
+section {
+    border: 1px solid #333; /* Borde gris oscuro */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  /* Oscurecer secciones */
+.section-dark {
+    background-color: #252526;
+    color: #d4d4d4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  /* Transición para elementos al pasar el mouse */
+section {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo suave */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Transición para enlaces */
+a {
+    color: #007bff; /* Color del enlace */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #0056b3; /* Color al pasar el mouse */
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra de texto */
+}
+
+/* Transición para botones */
+button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #d4d4d4; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Transición para elementos al pasar el mouse */
+section {
+    background-color: #2d2d2d; /* Fondo claro para las secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #383838; /* Color de fondo suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #61afef; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #56b6c2; /* Color al pasar el mouse */
+    text-shadow: 0 0 5px rgba(97, 175, 239, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #007acc; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #005a8c; /* Color al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #61afef; /* Color de encabezados */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #d4d4d4; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Transición para elementos al pasar el mouse */
+section {
+    background-color: #2d2d2d; /* Fondo claro para las secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #383838; /* Color de fondo suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #61afef; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #56b6c2; /* Color al pasar el mouse */
+    text-shadow: 0 0 5px rgba(97, 175, 239, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #007acc; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #005a8c; /* Color al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #61afef; /* Color de encabezados */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #d4d4d4; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Transición para elementos al pasar el mouse */
+section {
+    background-color: #2d2d2d; /* Fondo claro para las secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #383838; /* Color de fondo suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #61afef; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #56b6c2; /* Color al pasar el mouse */
+    text-shadow: 0 0 5px rgba(97, 175, 239, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #007acc; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #005a8c; /* Color al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #61afef; /* Color de encabezados */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #2F4F4F; /* Fondo gris oscuro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s e
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+    font-size: 14px; /* Tamaño de fuente reducido */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+}
+
+/* Ajustes adicionales para fuentes en secciones y encabezados */
+section p {
+    font-size: 12px; /* Tamaño de fuente para párrafos en secciones */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+    font-size: 14px; /* Tamaño de fuente reducido */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+}
+
+/* Ajustes adicionales para fuentes en secciones y encabezados */
+section p {
+    font-size: 12px; /* Tamaño de fuente para párrafos en secciones */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+    font-size: 12px; /* Tamaño de fuente reducido */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+    font-size: 14px; /* Tamaño de fuente para encabezados */
+}
+
+/* Ajustes adicionales para fuentes en secciones y encabezados */
+section p {
+    font-size: 10px; /* Tamaño de fuente para párrafos en secciones */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+    font-size: 12px; /* Tamaño de fuente reducido */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+    font-size: 14px; /* Tamaño de fuente para encabezados */
+}
+
+/* Ajustes adicionales para fuentes en secciones y encabezados */
+section p {
+    font-size: 10px; /* Tamaño de fuente para párrafos en secciones */
+}
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía simple y moderna */
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+    font-size: 11px; /* Tamaño de fuente aún más reducido */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #000000; /* Fondo negro para secciones */
+    padding: 15px; /* Espaciado interno reducido */
+    border-radius: 6px; /* Bordes redondeados más pequeños */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 15px; /* Separación entre cajas */
+    width: 80%; /* Tamaño de las cajas reducido */
+    max-width: 600px; /* Limitar el ancho máximo */
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #3E8E41; /* Verde pastel suave al pasar el mouse */
+    transform: scale(1.02); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #FF6347; /* Rojo pastel para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    font-size: 11px; /* Tamaño de fuente reducido para enlaces */
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #FF4500; /* Rojo más intenso al pasar el mouse */
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #32CD32; /* Verde pastel para botones */
+    color: white; /* Color del texto */
+    padding: 8px 15px; /* Espaciado interno reducido */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes más pequeños */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Tamaño de fuente reducido para botones */
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #228B22; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Movimiento hacia arriba */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #FF6347; /* Rojo pastel para encabezados */
+    font-size: 12px; /* Tamaño de fuente reducido para encabezados */
+}
+
+/* Ajustes adicionales para fuentes en secciones y encabezados */
+section p {
+    font-size: 10px; /* Tamaño de fuente reducido para párrafos en secciones */
+}
+/* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía estilo código */
+    background-color: #000000; /* Fondo negro */
+    color: #d4d4d4; /* Texto gris claro similar al de editores de código */
+    margin: 0;
+    padding: 20px;
+    font-size: 13px; /* Tamaño de fuente estilo código */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #1e1e1e; /* Fondo oscuro típico de editores */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px; /* Separación entre cajas */
+    border: 1px solid #3e3e3e; /* Borde tenue para simular el contorno */
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #252526; /* Fondo ligeramente más claro al pasar el mouse */
+    transform: scale(1.01); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #569cd6; /* Azul típico de enlaces en código */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #9cdcfe; /* Azul más claro al pasar el mouse */
+    text-shadow: 0 0 5px rgba(144, 202, 249, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #608b4e; /* Verde pastel oscuro estilo botón de código */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #4b8b3b; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-
+
+    /* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía estilo código */
+    background-color: #000000; /* Fondo negro */
+    color: #d4d4d4; /* Texto gris claro similar al de editores de código */
+    margin: 0;
+    padding: 20px;
+    font-size: 13px; /* Tamaño de fuente estilo código */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #1e1e1e; /* Fondo oscuro típico de editores */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px; /* Separación entre cajas */
+    border: 1px solid #3e3e3e; /* Borde tenue para simular el contorno */
+}
+
+/* Efecto al pasar el mouse sobre secciones */
+section:hover {
+    background-color: #252526; /* Fondo ligeramente más claro al pasar el mouse */
+    transform: scale(1.01); /* Aumento sutil de tamaño */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #569cd6; /* Azul típico de enlaces en código */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre enlaces */
+a:hover {
+    color: #9cdcfe; /* Azul más claro al pasar el mouse */
+    text-shadow: 0 0 5px rgba(144, 202, 249, 0.5); /* Sombra de texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #608b4e; /* Verde pastel oscuro estilo botón de código */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre botones */
+button:hover {
+    background-color: #4b8b3b; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-
+/* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía estilo código */
+    background-color: #000000; /* Fondo negro */
+    color: #d4d4d4; /* Texto gris claro */
+    margin: 0;
+    padding: 20px;
+    font-size: 13px; /* Tamaño de fuente estilo código */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #1e1e1e; /* Fondo oscuro típico de editores */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #3e3e3e; /* Borde tenue */
+    margin-bottom: 20px; /* Separación entre cajas */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #569cd6; /* Azul típico de enlaces en código */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #608b4e; /* Verde pastel oscuro estilo botón de código */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia a puntero */
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #c586c0; /* Púrpura típico de etiquetas de código */
+    font-size: 15px; /* Tamaño de fuente estilo editor */
+    font-family: 'Courier New', Courier, monospace; /* Asegurar tipografía código */
+}
+
+/* Ajustes para párrafos dentro de secciones */
+section p {
+    font-size: 13px; /* Tamaño de fuente para párrafos */
+    color: #ce9178; /* Color marrón claro */
+}
+/* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 20px;
+    font-size: 13px;
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #3e3e3e;
+    margin-bottom: 20px;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #569cd6;
+    text-decoration: none;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #608b4e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #c586c0;
+    font-size: 15px;
+}
+
+/* Estilo de párrafos */
+section p {
+    font-size: 13px;
+    color: #ce9178;
+}
+/* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px; /* Aumenté el tamaño de la fuente aquí */
+}
+
+/* Estilo de secciones */
+section {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #3e3e3e;
+    margin-bottom: 20px;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #569cd6;
+    text-decoration: none;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #608b4e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo de encabezados */
+h2, h3 {
+    color: #c586c0;
+    font-size: 18px; /* Aumenté el tamaño de los encabezados */
+}
+
+/* Estilo de párrafos */
+section p {
+    font-size: 15px; /* Aumenté el tamaño de los párrafos */
+    color: #ce9178;
+}
+/* Estilo de la galería de proyectos */
+#proyectos {
+    background-color: #000;
+    padding: 30px;
+}
+
+.galeria-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.proyecto {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #3e3e3e;
+    text-align: center;
+    color: #d4d4d4;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.proyecto h3 {
+    color: #569cd6;
+    margin-top: 10px;
+}
+
+.proyecto p {
+    font-size: 14px;
+    color: #ce9178;
+}
